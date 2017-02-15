@@ -1,0 +1,114 @@
+hr {
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+}
+.container {
+    min-height: 100%;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #333333;
+    line-height: 1.25;
+}
+
+/*
+Header and Footer
+*/
+
+.header {
+    margin-top: 1.5rem;
+    line-height: 1;
+}
+.header h1,
+.header h2,
+.header h3,
+.header h4,
+.header h5,
+.header h6{
+    margin-bottom: 0.25rem;
+    line-height: 1.25;
+}
+
+.footer {
+    font-size: 1rem;
+    color: gray;
+}
+
+
+/*Horizontal Navbar Menu*/
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    /*justify-content: space-around;*/
+}
+.navbar li {
+    padding-left: 2.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    margin-bottom: 1rem;
+}
+
+.danger {
+    background-color: tomato;
+    color: black;
+}
+.danger-text {
+    color: tomato;
+}
+
+.debug {
+    border: 1px solid red;
+}
+
+/**
+Potential Skeleton Upgrades
+**/
+.u-fill-view {
+    flex: 1;
+}
+
+blockquote {
+    text-align: center;
+    border-left: 3px solid #ccc;
+    padding-left: 5px;
+    margin: 0 auto;
+    width: auto;
+    display: table
+}
+
+.u-text-center {
+    text-align: center;
+}
+.u-text-left {
+    text-align: left;
+    ;
+}
+.u-text-right {
+    text-align: right;
+    ;
+}
+.u-inline {
+    display: inline-block;
+}
+
+.u-flex-pull-right {
+    margin-left: auto;
+}
+
+.u-flex-top {
+    align-items: flex-start;
+}
