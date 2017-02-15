@@ -1,0 +1,22 @@
+{
+  "name": "cpps",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forthright48/notebook.git"
+  },
+  "author": "Mohammad Samiul Islam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/forthright48/notebook/issues"
+  },
+  "homepage": "https://github.com/forthright48/notebook#readme",
+  "dependencies": {
+    "express": "^4.14.1"
+  }
+}
